@@ -14,10 +14,9 @@ public class Task1 {
         System.out.println("Выброшенное число: " + number);
         System.out.println("Старший значащий бит выпавшего числа: " + getMostSignificantBit() + "\n");
         getFirstArray();
-
         getSecondArray();
-
     }
+  
     public static int getMostSignificantBit() {
         int n = 0;
         while ((int) Math.pow(2, n) <= number) {
@@ -48,6 +47,7 @@ public class Task1 {
         }
         System.out.print("]");
     }
+  
     public static void getSecondArray() {
         int count = 0;
         for (int i = Short.MIN_VALUE; i < number; i++) {

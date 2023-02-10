@@ -62,7 +62,7 @@ public class Task1 {
                 k++;
             }
         }
-        System.out.print("Массив m1: [");
+        System.out.print("Массив m2: [");
         for (int i = 0; i < m2.length; i++) {
             if (i != m2.length - 1) System.out.print(m2[i] + ", ");
             else System.out.print(m2[i]);

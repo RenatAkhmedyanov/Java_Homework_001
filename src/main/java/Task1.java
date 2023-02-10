@@ -14,6 +14,7 @@ public class Task1 {
         System.out.println("Выброшенное число: " + number);
         System.out.println("Старший значащий бит выпавшего числа: " + getMostSignificantBit() + "\n");
         getFirstArray();
+        System.out.println("\n");
         getSecondArray();
     }
   
